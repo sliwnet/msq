@@ -22,9 +22,9 @@ class SenderPlaceV1
 };
 
 $authData = new AuthDataV1();
-$authData->login="6268201";
-$authData->masterFid="62682";
-$authData->password="3Ftww4XzTSeLMmKy";
+$authData->login="*****";
+$authData->masterFid="******";
+$authData->password="********";
 
 
 // Klient webservice
@@ -101,7 +101,7 @@ $openUMLFV1="
 	$packageId = $xml->Packages->Package[0]->PackageId;
 	$parcelId = $xml->Packages->Package[0]->Parcels->Parcel[1]->ParcelId;
 	$reference = "Atest1000";
-	$FID = 62682; // globalnie na sta³e
+	$FID = ; // globalnie na sta³e
 
 // Tworzenie etykiet na podstawie	package ref.
 	echo "<br/>Tworzenie etykiet na podstawie	package ref.<br/>";
